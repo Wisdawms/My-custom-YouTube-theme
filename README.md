@@ -4,6 +4,22 @@
   <code>
 :root { --dimmer-text: #484054; --hover-background: #232225; --main-background: #121112; --main-color: #3e3847; --main-text: #725e4b; --second-background: #19191a; --shadow: 0 1px .5px rgba(23, 22, 23, .2); }
 
+[class="yt-spec-button-shape-next yt-spec-button-shape-next--text yt-spec-button-shape-next--mono yt-spec-button-shape-next--size-s"]:hover,
+[class="yt-spec-button-shape-next yt-spec-button-shape-next--text yt-spec-button-shape-next--mono yt-spec-button-shape-next--size-s yt-spec-button-shape-next--icon-button yt-spec-button-shape-next--override-small-size-icon"]:hover {
+background-color: var(--hover-background) !important;
+}
+
+*[role="text"]::selection{
+    color: var(--main-text) !important;
+    background-color: transparent !important;
+}
+
+/* --main-color: #3e3847*/
+
+span[class="yt-core-attributed-string--highlight-text-decorator"]{
+background-color: var(--hover-background) !important;
+}
+
 * {
 font-family: 'Source Code Pro';
 font-size: 16px;
