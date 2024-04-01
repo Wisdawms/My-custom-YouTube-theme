@@ -34,11 +34,14 @@ color: var(--main-color) !important;
 button:hover > * > * > * path{
 transition: 0.5s fill ease;
 }
+/*
+
 button:hover > * > * > * path{
 fill: var(--main-color);
-}
+} */
 
-path {
+#yt-logo-updated_yt1 path,
+#toolbar path {
 fill: var(--main-text);
 }
 
