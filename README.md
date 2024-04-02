@@ -25,6 +25,14 @@ font-family: 'Source Code Pro';
 font-size: 16px;
 }
 
+#yt-logo-updated-svg_yt3 path {
+color: var(--main-text) !important;
+}
+
+#yt-logo-updated_yt3 g:first-child > path:nth-child(2) {
+fill: var(--main-text) !important;
+}
+
 #voice-search-button {
 display: none;
 }
